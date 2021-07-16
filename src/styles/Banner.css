@@ -1,0 +1,18 @@
+.banner {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.banner img {
+  width: 100%;
+  min-height: 250px;
+  object-fit: cover;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
