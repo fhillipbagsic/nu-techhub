@@ -3,10 +3,9 @@
   text-align: center;
   color: white;
 }
-
 .banner img {
   width: 100%;
-  height: 312px;
+  min-height: 250px;
   object-fit: cover;
 }
 
@@ -20,27 +19,12 @@
   align-items: center;
 }
 
+.banner-label img {
+  width: 20%;
+  height: 20%;
+  object-fit: contain;
+}
 .banner-label h1 {
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 2px;
-}
-
-h1 + div {
-  margin-top: 1rem;
-  width: 100px;
-  height: 4px;
-  background-color: #d8b638;
-}
-
-div > a {
-  color: white;
-  font-weight: 300;
-}
-
-div > a:hover {
-  color: white;
-}
-
-div > a:not(:last-child) {
-  margin-right: 5rem;
 }

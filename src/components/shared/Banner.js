@@ -3,11 +3,14 @@ import Image from "react-bootstrap/Image";
 import { Container, Row } from "react-bootstrap";
 import "../../styles/Banner.css";
 
-export default function Banner() {
+export default function Banner(props) {
   return (
     <div className="banner">
       <img src={banner} alt="banner" />
-      <h1>PRODUCTS</h1>
+      <div className="banner-label">
+        <h1>{props.label}</h1>
+        <div />
+      </div>
     </div>
   );
 }

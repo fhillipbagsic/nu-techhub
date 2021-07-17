@@ -7,7 +7,7 @@ export default function NavBar() {
       <div className="container">
         <a className="navbar-brand d-flex" href="/">
           <img src={NULogo} alt="" />
-          <span className="ml-3">
+          <span className="ml-3 navbar-label">
             {" "}
             NU INNOVATION TECH HUB
             <br />
@@ -28,7 +28,7 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link " href="/products">
+              <a className="nav-link " href="/products/innovations">
                 PRODUCTS
               </a>
             </li>
