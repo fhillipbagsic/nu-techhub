@@ -7,10 +7,20 @@ export default function FeaturedProducts() {
             Featured Products
           </h2>
           <h5 className="fw-lighter">
-            From achievements to innovation stories
+            Browse thru our products made by our talented innovators
           </h5>
         </div>
+        <div className="container mt-4"></div>
       </div>
     </section>
   );
 }
+
+// const featuredProducts = [
+//   {
+//     productID: ,
+//     productImage:,
+//     productImage:,
+//     owner
+//   }
+// ]

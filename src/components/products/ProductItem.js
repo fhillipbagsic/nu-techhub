@@ -3,7 +3,7 @@ import { useRouteMatch } from "react-router-dom";
 
 export default function ProductItem(props) {
   let path = useRouteMatch();
-  const { productID, productName, productImage, owner } = props;
+  const { productID, productName, productImage, productPrice, owner } = props;
 
   return (
     <div className="col mb-4">
@@ -14,6 +14,9 @@ export default function ProductItem(props) {
           <h6 class="card-subtitle mb-2 text-muted text-truncate">
             {owner.join(", ")}
           </h6>
+          {productPrice && (
+            <p class="card-text text-success">₱{productPrice}</p>
+          )}
           <a href={`${path.url}/${productID}`} className="btn btn-primary">
             View Item
           </a>

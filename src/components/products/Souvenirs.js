@@ -14,6 +14,7 @@ export default function Souvenirs() {
             productID={item.productID}
             productName={item.productName}
             productImage={item.productImage[0]}
+            productPrice={item.productPrice}
             owner={item.owner}
           />
         ))

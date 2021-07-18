@@ -45,8 +45,37 @@
 
 .section-content {
   height: 100vh;
+  border: 1px solid red;
 }
 
-.section-content .text-darkblue {
+.text-darkblue {
   color: #354092;
+}
+
+.text-gold {
+  color: #d8b638;
+}
+
+.section-content-inquire {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(45, 8, 154, 0.75),
+      rgba(216, 182, 56, 0.75)
+    ),
+    url("../assets/Inquire_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 70vh;
+}
+
+.section-feature svg {
+  color: #d8b638;
+  margin-bottom: 10px;
+}
+
+.section-feature h4,
+.section-feature p {
+  text-align: center;
 }
