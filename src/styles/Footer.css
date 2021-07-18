@@ -1,4 +1,6 @@
-h4 {
+.footer-links h4,
+.footer-address h4,
+.footer-subscription h4 {
   letter-spacing: 1px;
   color: white;
 }

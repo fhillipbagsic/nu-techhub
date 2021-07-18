@@ -32,6 +32,7 @@ export default function Products() {
           component={ProductDetail}
         />
       </Switch>
+
       <Footer />
     </>
   );

@@ -12,12 +12,23 @@
 .product-image-header {
   background-color: #efefef;
   object-fit: contain;
-  max-height: 400px;
+
+  max-height: 470px;
+  min-height: 470px;
 }
 
 .product-image-row div {
   cursor: pointer;
+  min-height: 115px;
+  max-height: 115px;
 }
+
+.product-image-row div img {
+  object-fit: contain;
+  min-height: 115px;
+  max-height: 115px;
+}
+
 .product-details {
   width: 60%;
 }

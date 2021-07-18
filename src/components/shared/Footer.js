@@ -83,7 +83,7 @@ export default function Footer() {
               <label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="email-address"
                   placeholder="Your email address"
                 />
@@ -94,7 +94,7 @@ export default function Footer() {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-cursor-fill"
+                className="bi bi-cursor-fill ms-2 mb-2"
                 viewBox="0 0 16 16"
               >
                 <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z" />

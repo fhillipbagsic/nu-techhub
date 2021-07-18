@@ -28,13 +28,12 @@ export default function Innovations() {
             <div>
               <h2>Innovations</h2>
               <p>
-                Showing 1-6 of {items.length}{" "}
-                {items.length > 1 ? "results" : "result"}
+                Showing {items.length} {items.length > 1 ? "results" : "result"}
               </p>
             </div>
             <div>
-              <p>Sort by</p>
-              <select className="form-select form-select-lg mb-3">
+              <h6>Sort by</h6>
+              <select className="form-select form-select-sm mb-3">
                 {/* <option  value="Price Highest to Lowest">
                   Price Highest to Lowest
                 </option>

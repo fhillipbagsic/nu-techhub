@@ -43,7 +43,7 @@ export default function ProductDetail() {
                     <img
                       src={productDetail[0].productImage[0]}
                       alt="product-1"
-                      className="img-fluid rounded "
+                      className="img-fluid rounded"
                     />
                   </div>
                   {productDetail[0].productImage[1] !== undefined && (
@@ -96,10 +96,18 @@ export default function ProductDetail() {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb bg-white">
                     <li className="breadcrumb-item">
-                      <a href="/products/innovations">Products</a>
+                      <a
+                        href="/products/innovations"
+                        className="text-decoration-none"
+                      >
+                        Products
+                      </a>
                     </li>
                     <li class="breadcrumb-item">
-                      <a href={`/products/${productDetail[0].productType}`}>
+                      <a
+                        href={`/products/${productDetail[0].productType}`}
+                        className="text-decoration-none"
+                      >
                         <span className="text-capitalize">
                           {productDetail[0].productType}
                         </span>
@@ -130,11 +138,11 @@ export default function ProductDetail() {
               <div className="align-self-end">
                 <button
                   type="button"
-                  className="btn btn-outline-warning btn-lg mr-2"
+                  className="btn btn-outline-warning btn-lg"
                 >
                   Add to Cart
                 </button>
-                <button type="button" className="btn btn-primary btn-lg">
+                <button type="button" className="btn btn-primary btn-lg ms-2">
                   {productDetail[0].productType === "innovation"
                     ? "Contact Innovator"
                     : "Buy Now"}
