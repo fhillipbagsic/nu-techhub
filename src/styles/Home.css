@@ -1,3 +1,4 @@
+/* Banner section */
 .banner {
   position: relative;
   text-align: center;
@@ -29,6 +30,7 @@
   letter-spacing: 2px;
 }
 
+/* Navigation for section */
 .sections-navigation {
   background-color: #181e4a;
 }
@@ -43,10 +45,9 @@
   font-weight: 200;
 }
 
-.section-content {
+/* .section-content {
   height: 100vh;
-  border: 1px solid red;
-}
+} */
 
 .text-darkblue {
   color: #354092;
@@ -67,7 +68,7 @@
   background-size: cover;
   background-position: center;
   color: white;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
 .section-feature svg {
@@ -78,4 +79,32 @@
 .section-feature h4,
 .section-feature p {
   text-align: center;
+}
+
+/* Card carousel */
+
+.card-carousel {
+  overflow-x: scroll;
+}
+
+.chevron-control div {
+  cursor: pointer;
+}
+
+.stories-container img {
+  height: 250px;
+  object-fit: cover;
+  background-color: #efefef;
+}
+
+.stories-container h5 {
+  color: #354092;
+}
+
+.exhibit-image {
+  height: 600px;
+  object-fit: cover;
+}
+.exhibit-info {
+  background-color: rgba(0, 0, 0, 0.5);
 }

@@ -1,6 +1,6 @@
 export default function VisitorsToBuyers() {
   return (
-    <section id="visitors" className="border ">
+    <section id="visitors">
       <div className="container py-5 d-flex flex-column align-items-center">
         <h2 className="fw-light">Turn visitors into buyers</h2>
         <div className="container mt-4">

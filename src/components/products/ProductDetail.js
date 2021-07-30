@@ -165,6 +165,6 @@ function getOwnership(productType) {
     case "souvenirs":
       return "Seller";
     default:
-      return "ownder";
+      return "owner";
   }
 }

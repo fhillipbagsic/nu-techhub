@@ -7,7 +7,7 @@ export default function InquireNow() {
           <h5 className="fw-lighter">Ask us something</h5>
         </div>
         <div className="d-flex mt-5 px-5">
-          <p className="text-center fw-light">
+          <p className="text-center fw-light sm-text-truncate">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
             condimentum in nibh cras. Sed quis fermentum elit venenatis dolor
             posuere. Risus, tempor egestas nunc, enim. Id ac netus phasellus
